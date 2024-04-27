@@ -27,13 +27,11 @@ export const LandingPageHeader = () => {
         </div>
         <Menuicon className='menu-icon' onClick={toggleMenu} fill='white' />
         <div className='menu'>
-        <div className='menu'>
             <HeaderNavigation className={showMenu ? 'mobile' : ''}/>
         </div>
         <div className="button">
                 <CustomButton className="signup" onClick={()=>{}}>Sign Up</CustomButton>
                 <CustomButton className="login" onClick={()=>{}} type="outline"><a href="/">Login</a></CustomButton>
-        </div>
         </div>
     </header>)
 }
