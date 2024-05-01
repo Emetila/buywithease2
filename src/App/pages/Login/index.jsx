@@ -17,7 +17,7 @@ export const LoginPage = () => {
         loginUser(form.username, form.password)
             .then((res) => {
                 localStorage.setItem('user', JSON.stringify(res))
-                window.location.href = '?status=home'
+                window.location.href = '/home'
             })
             .catch(()=>{
                 alert('invalid user credentials')
@@ -33,7 +33,7 @@ export const LoginPage = () => {
         <div className={style.bodytext}>
             <div className={style.title}>
                 <h1>Welcome Back</h1>
-                <HandIcon />
+                <HandIcon className={style.handicon} />
             </div>
             <p>Good to have you back! Let’s make set you in.</p>
             <br />
@@ -58,7 +58,7 @@ export const LoginPage = () => {
 
             <div className={style.button}>
                 <div>
-                    <CustomButton className={style.loginbutton} onClick={handleLogin} type="submit"> Login </CustomButton>
+                    <CustomButton className={style.buttonlogin} onClick={handleLogin} type="submit"> Login </CustomButton>
                 </div>
                 <br />
                 <a href="/forgot-password">Forgot password?</a>
@@ -83,7 +83,7 @@ export const LoginPage = () => {
                 </CustomButton>
                 <div className={style.signup}>
                     Don’t  have an account?
-                    <a href="/SignUp" onClick={()=> {}}>{Signup}</a>
+                    <a href="/SignUp">{Signup}</a>
                 </div> 
             </div>
         </div>
