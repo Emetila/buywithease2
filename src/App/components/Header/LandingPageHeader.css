@@ -68,7 +68,7 @@
 .signedin {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0;
 }
 
 .usericon {

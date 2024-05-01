@@ -29,8 +29,8 @@ export const BagProductsList = () => {
         }
                      */}
                     <div>
-                        <img className={style.productsimages} src={bagProduct.Image}/>
-        
+                        <img className={style.productsimages} src={bagProduct.Image} />
+
                     </div>
                     <div className={style.wrap}>
                         <div className={style.name}>

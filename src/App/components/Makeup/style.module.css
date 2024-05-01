@@ -21,9 +21,13 @@
     gap: 16px;
 }
 
-.productsimages {
+.bagcollection {
+    padding: 0 var(--app-block-padding);
+}
+
+.image {
+    width: 302px;
     height: 340px;
-    width: 302;
 }
 
 .products {
@@ -43,11 +47,6 @@
 
 .heading {
     line-height: 25px;
-}
-
-.likeicon {
-    position: relative;
-    bottom: 10%;
 }
 
 .amount {
@@ -99,21 +98,12 @@
     width: 303px;
 }
 
-.bagcollection .text p {
-    font-size: 16px;
-    font-family: "Roboto";
-}
-
-.sortby h4, .sortby p {
-    font-size: 16px;
-}
-
 @media (max-width:500px) {
     .title {
         font-size: 24px;
-        padding: var(--app-block-padding);
         text-align: center;
         font-weight: bold;
+        padding: var(--app-block-padding);
     }
     .bagcollection .text p{
         font-size: 14px;
@@ -122,9 +112,6 @@
         font-size: 14px;
     }
     .products {
-        /* display: flex;
-        flex-direction: column;
-        padding: var(--app-block-padding); */
         display: grid;
         grid-template-columns: auto auto;
         padding: 10px;
@@ -132,7 +119,7 @@
         padding: 0 var(--app-block-padding);
         padding-bottom: 40px;
     }
-    .productsimages {
+    .Image {
         height: 150px;
         width: 150px;
     }

@@ -54,3 +54,41 @@
     width: 124px;
     height: 50px;
 }
+
+@media (max-width:500px) {
+    .specialoffer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 var(--app-block-padding);
+        height: 130px;
+    }   
+    .specialoffer h1, a {
+        font-size: 24px;
+    }
+    
+    .specialoffer a {
+        font-size: 16px;
+    }
+    .seachsection {
+        height: 70px;
+    }
+    
+    .input {
+        width: 100%;
+        height: 40px;
+    }
+    .icon {
+        position: absolute;
+        left: 10%;
+        padding-top: 9.5px;
+        width: 20px;
+    }
+    
+    .button {
+        width: 124px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

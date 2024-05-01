@@ -6,6 +6,7 @@ import { CustomButton } from "../../components/Button";
 import { BagProductsList } from "../../components/BagProducts";
 import { ClothProductsList } from "../../components/ClothesProduct";
 import { JewelryProducts } from "../../components/Jewelry";
+import { MakeupProducts } from "../../components/Makeup";
 
 export const ProductPage = () => {
     return (<section className={style.wrapper}>
@@ -29,6 +30,7 @@ export const ProductPage = () => {
             <BagProductsList />
             <ClothProductsList />
             <JewelryProducts />
+            <MakeupProducts />
         </div>
         <div>
         <Footer />

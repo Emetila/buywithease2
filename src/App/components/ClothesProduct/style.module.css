@@ -96,3 +96,60 @@
 .wrap {
     width: 303px;
 }
+
+@media (max-width:500px) {
+    .title {
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .bagcollection .text p{
+        font-size: 14px;
+    }
+    .sortby h4, .sortby p {
+        font-size: 14px;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        grid-gap: 30px;
+        padding: 0 var(--app-block-padding);
+        padding-bottom: 40px;
+    }
+    .Image {
+        height: 150px;
+        width: 150px;
+    }
+    .wrap {
+        width: 150px;
+    }
+    .button {
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .heading, .description {
+        font-size: 12px;
+    }
+    .amount .money {
+        font-size: 12px;
+    }
+    .rating {
+        width: 65px;
+    }
+    .amount {
+        display: flex;
+        flex-direction: row;
+        margin-top: -30px;
+        gap: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
