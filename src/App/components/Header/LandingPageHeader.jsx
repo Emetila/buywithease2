@@ -5,6 +5,7 @@ import { HeaderNavigation } from './HeaderNavigation';
 import { CustomButton } from '../Button';
 import { Logo } from '../Logo';
 import { ReactComponent as Menuicon } from '../../assets/Icons/menu.svg'
+import { Link } from 'react-router-dom';
 
 function useState(initialValue) {
     let val = initialValue
@@ -30,7 +31,7 @@ export const LandingPageHeader = () => {
             <HeaderNavigation className={showMenu ? 'mobile' : ''} />
         </div>
         <div className="button">
-            <CustomButton className="buttonsignup" onClick={()=>{}}>Sign Up</CustomButton>
+            <CustomButton className="buttonsignup" onClick={()=>{}}><Link to="/signup">Sign Up</Link></CustomButton>
             <CustomButton className="login" onClick={()=>{}} type="outline"><a href="/">Login</a></CustomButton>
         </div>
     </header>)

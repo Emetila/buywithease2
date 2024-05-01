@@ -1,5 +1,5 @@
 import { Logo } from '../../Logo';
-import { LandingPageHeader } from '../LandingPageHeader';
+import { ProductNavigation } from './ProductPageNavigation';
 import { ReactComponent as SettingIcon } from "../../../assets/Icons/setting.svg";
 import { ReactComponent as CartIcon } from "../../../assets/Icons/cart.svg"; 
 import { ReactComponent as UserImgae } from "../../../assets/Image/profile.svg";
@@ -12,7 +12,7 @@ export const ProductPageHeader = () => {
             <Logo useWhite />
         </div>
         <div className='menu'>
-            <LandingPageHeader />
+            <ProductNavigation />
         </div>
         <div className='signedin'>
             <SettingIcon />

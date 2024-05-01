@@ -7,9 +7,9 @@ import {ReactComponent as FacebookLogo} from "../../assets/Icons/facebook.svg";
 import {ReactComponent as GoogleLogo} from "../../assets/Icons/google.svg";
 import { CustomInput } from "./input";
 import React from "react";
-import {Signup} from "../Signup";
 import { loginUser } from "./login";
-
+import { Link } from "react-router-dom";
+import SignUp from "../Signup";
 
 export const LoginPage = () => {
     const [form, setForm] = React.useState({})
@@ -83,9 +83,11 @@ export const LoginPage = () => {
                 </CustomButton>
                 <div className={style.signup}>
                     Don’t  have an account?
-                    <a href="/SignUp">{Signup}</a>
+                    <Link to="/signup" onClick={event =>  window.location.href='/signup'}>Signup</Link>
                 </div> 
             </div>
         </div>
     </section>
 }
+
+export default SignUp

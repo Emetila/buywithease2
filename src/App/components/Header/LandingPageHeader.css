@@ -37,6 +37,15 @@
     gap: 20px;
 }
 
+.buttonsignup a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.buttonsignup a:hover {
+    color: #673BB7;
+}
 .button .buttonsignup, .button .login {
     width: 124px;
     height: 50px;
