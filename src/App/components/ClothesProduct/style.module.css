@@ -3,7 +3,6 @@
     font-size: 40px;
     margin-bottom: 0;
     padding-top: 20px;
-    padding-left: 6rem;
 }
 
 .text {
@@ -11,7 +10,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    padding: 0 var(--app-block-padding);
 }
 
 .sortby {
@@ -21,9 +19,13 @@
     gap: 16px;
 }
 
-.productsimages {
+.bagcollection {
+    padding: 0 var(--app-block-padding);
+}
+
+.image {
+    width: 302px;
     height: 340px;
-    width: 302;
 }
 
 .products {
@@ -45,15 +47,11 @@
     line-height: 25px;
 }
 
-.likeicon {
-    position: relative;
-    bottom: 10%;
-}
-
 .amount {
     display: flex;
     flex-direction: column;
 }
+
 
 .name {
     display: flex;

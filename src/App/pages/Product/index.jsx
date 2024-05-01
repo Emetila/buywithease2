@@ -4,6 +4,7 @@ import style from './style.module.css';
 import {ReactComponent as SearchIcon} from "../../assets/Icons/search.svg";
 import { CustomButton } from "../../components/Button";
 import { BagProductsList } from "../../components/BagProducts";
+import { ClothProductsList } from "../../components/ClothesProduct";
 
 export const ProductPage = () => {
     return (<section className={style.wrapper}>
@@ -25,7 +26,7 @@ export const ProductPage = () => {
         </div>
         <div className={style.product}>
             <BagProductsList />
-           
+            <ClothProductsList />
         </div>
         <div>
         <Footer />
