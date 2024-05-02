@@ -1,5 +1,6 @@
 .form {
     padding: 0 var(--app-block-padding);
+    overflow: hidden;
 }
 
 .form h2 {

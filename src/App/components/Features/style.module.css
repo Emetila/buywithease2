@@ -3,6 +3,7 @@
     padding: var(--app-block-padding);
     padding-bottom: 0;
     padding-top: 6rem;
+    overflow: hidden;
 }
 
 .text {
@@ -34,6 +35,7 @@
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 45px;
     width: 100%;
+    overflow: hidden;
     padding-left: 0;
 }
 

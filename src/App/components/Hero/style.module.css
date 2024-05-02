@@ -7,6 +7,7 @@
     background-position: center;
     margin-top: 0;
     background-color: white;
+    overflow: hidden;
 }
 
 .hero .title, .text {

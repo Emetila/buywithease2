@@ -4,6 +4,7 @@
     padding: var(--app-block-padding);
     flex-direction: column;
     padding: 25px;
+    overflow: hidden;
 }
 
 .testimonies .title {

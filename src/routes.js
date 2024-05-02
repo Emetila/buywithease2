@@ -14,6 +14,7 @@ export const RoutesPage = () => {
                     <Route path="/product" element={<ProductPage />} />
                     <Route path="/signup" element={<SignUp />} />
                     <Route path="/login" element={<LoginPage />} />
+                    
                 </Routes>
             </BrowserRouter>
         </div>

@@ -6,6 +6,11 @@
     padding-left: 6rem;
 }
 
+.productcontainer {
+    padding: 30px 40px;
+    width: 100%;
+}
+
 .text {
     display: flex;
     justify-content: space-between;
@@ -30,13 +35,21 @@
     height: 340px;
 }
 
-.products {
+.productcontainer .products {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
     grid-gap: 20px;
     padding: 0 var(--app-block-padding);
     padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.section {
+    overflow: hidden;
 }
 
 .heading, .description {

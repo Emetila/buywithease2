@@ -20,14 +20,6 @@ export const BagProductsList = () => {
         <div className={style.products}>
             {bagProduct.map((bagProduct) => (
                 <div>
-                    {/* {
-            <div  className={style.likeicon}>
-                {
-                !show ? 
-                <button onClick={handleIconToggle}><EmptyLikeIcon /></button> : <button><FilledLikeIcon size={"1rem"} /> </button>}
-            </div>
-        }
-                     */}
                     <div>
                         <img className={style.productsimages} src={bagProduct.Image} />
 

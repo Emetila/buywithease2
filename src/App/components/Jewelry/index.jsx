@@ -11,6 +11,7 @@ export const JewelryProducts = () => {
     return (
         <section>
             <Title />
+            <div className={style.productcontainer}>
             <div className={style.products}>
             {jewelriesProduct.map((jewelriesProduct) => (
                 <div>
@@ -30,6 +31,7 @@ export const JewelryProducts = () => {
                 </div>
             ))}
         </div>
+            </div>
         <div className={style.direction}>
             <FirstArrow />
             <NextArrow />

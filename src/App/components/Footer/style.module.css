@@ -71,6 +71,7 @@
     padding-top: 30px;
     align-items: center;
     padding: 0 var(--app-block-padding);
+    overflow: hidden;
 }
 
 .footer .text a {

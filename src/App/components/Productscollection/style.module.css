@@ -4,6 +4,7 @@
     align-items: center;
     padding: var(--app-block-padding);
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .collections h3, .heading {
@@ -18,6 +19,7 @@
     grid-template-columns: auto auto auto;
     padding: 10px;
     grid-gap: 20px;
+    overflow: hidden;
 }
 
 .products .image {

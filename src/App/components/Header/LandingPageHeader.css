@@ -4,6 +4,8 @@
     justify-content: center;
     gap: 60px;
     padding: 0 var(--app-block-padding);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
 }
 
 .logo {
@@ -68,7 +70,17 @@
 .signedin {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 0;
+}
+
+.cart {
+    width: 32px;
+    height: 32px;
+}
+
+.setting {
+    height: 38px;
 }
 
 .usericon {

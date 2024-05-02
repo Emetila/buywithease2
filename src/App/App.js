@@ -1,11 +1,11 @@
 import './App.css';
 import { RoutesPage } from '../routes';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import { HeaderNavigation } from './components/Header/HeaderNavigation';
-import { HomePage } from './pages/Landing';
   import AllPages from './pages/AllPages';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 export function App() {
+  
   const isLogin = new URLSearchParams(window.location.search)
     if (isLogin.get('status') === 'home') {
       return (<AllPages />)
@@ -13,6 +13,7 @@ export function App() {
   return (
     <div>
       <RoutesPage />
+      
     </div>
   );
 }

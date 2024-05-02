@@ -33,6 +33,11 @@
     grid-gap: 20px;
     padding: 0 var(--app-block-padding);
     padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.section {
+    overflow: hidden;
 }
 
 .heading, .description {
