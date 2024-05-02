@@ -14,7 +14,7 @@ export const ProductNavigation = (props) => {
                 </li>
                 <li><a href="#/Benefits">Benefits</a></li>
                 <li>
-                    <a href="#/Stories">Stories</a>
+                    <a href="/about">About</a>
                 </li>
                 <li>
                     <a href="#/Support">Support</a>

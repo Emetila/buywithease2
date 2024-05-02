@@ -15,7 +15,7 @@ export const HeaderNavigation = (props) => {
                 </li>
                 <li><Link to="#/Benefits">Benefits</Link></li>
                 <li>
-                    <Link to="#/Stories">Stories</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
                     <Link to="#/Support">Support</Link>

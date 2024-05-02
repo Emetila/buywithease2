@@ -1,0 +1,51 @@
+.textbox {
+    display: flex;
+    padding: var(--app-block-padding);
+    gap: 60px;
+}
+
+.textwrap .title {
+    font-family: "Plus Jakarta Sans";
+    font-size: 54px;
+    color: #30009C;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.textwrap p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.image {
+    height: 700px;
+    width: 550px;
+}
+
+@media (max-width:500px) {
+    .textbox {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        overflow: hidden;
+        padding: var(--app-block-padding);
+        margin-top: -120px;
+    } 
+
+    .textwrap .title {
+        font-size: 32px;
+        color: #30009C;
+        margin-top: -120px;
+    }
+
+    .textwrap p {
+        line-height: 25px;
+    }
+    
+    .image {
+        height: 500px;
+        width: 300px;
+    }
+}
